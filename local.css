@@ -27,6 +27,7 @@ body {
   bottom: 0px;
   left: 0px;
   margin: auto;
+	-webkit-user-select: none;
 }
 
 .header .menu-toggle {
