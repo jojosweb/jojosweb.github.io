@@ -45,7 +45,7 @@ body {
   width: inherit;
   height: inherit;
   background-size: contain;
-  -webkit-filter: drop-shadow(0px 0px 1px #eeeeee);
+  -webkit-filter: drop-shadow(0px 0px 1px #eee);
 }
 
 .header .menu-toggle.icon::before {
