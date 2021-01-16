@@ -4,23 +4,25 @@ body {
 	position: absolute;
 	background-color: #fff;
   margin: 0;
+  display: flex;
+  flex-flow: column;
 }
 
 .header {
   width: 100%;
   height: auto;
-  position: fixed;
+  position: relative;
   background-color: #fff;
-  border: 1px solid black;
   border-bottom: 1px solid black;
   margin: 0;
   padding: 20px;
+  z-index: 2;
 }
 
 .header .banner-logo {
 	width: fit-content;
 	height: fit-content;
-  font-size: 40px;
+  font-size: 44px;
   font-family: Dotty Shadow;
   top: 0px;
   right: 0px;
@@ -50,5 +52,42 @@ body {
 }
 
 .header .menu-toggle.icon::before {
-  background-image: url("https://raw.githubusercontent.com/jojosweb/libraries/main/Icons/Wiggle/1%20-%20Cut.png");
+  background-image: url("https://jojosweb.co/libraries/Icons/Pointer/2881E13C-CC8B-4638-B7A7-37216EE31F39.png");
+}
+
+
+
+/* CONTENT BODYFRAME */
+.content-bodyframe {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+  display: block;
+}
+
+
+/* NAVIGATION MENU */
+.menu.navigation {
+  width: 268px;
+  height: 268px;
+  background-color: white;
+  bottom: auto;
+  left: auto;
+  display: block;
+  border: 1px solid #000;
+  border-top: 0px;
+}
+
+.navigation .container {
+  width: min-content;
+  height: fit-content;
+  border: 1px solid #000;
+}
+
+.navigation button {
+  width: 230px;
+  height: 25px;
+  background-color: #ececec;
+  margin-bottom: 20px;
 }
